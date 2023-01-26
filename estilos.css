@@ -1,0 +1,30 @@
+* {
+    color: lightgray;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+div{
+    background-color: #531D82;
+}
+
+.container-fluid{
+    text-align: center;
+    padding: 3px 0px;
+    border-bottom: 1px outset #abababab;
+}
+
+.row{
+    padding: 5px 0;
+}
+
+.columna{
+    border-right: 1px outser #abababab;
+}
+
+
