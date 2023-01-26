@@ -1,13 +1,28 @@
 * {
-    color: lightgray;
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
     text-align: center;
 }
 
-li{
-    list-style-type: none;
+img{
+    border-radius: 50%;
+    padding: 10px;
 }
+
+ul{
+    margin: 5px;
+}
+
+li{
+    font-size: 14px;
+    list-style: none;
+    text-align: center;
+    border-left: 1px outset #abababab;
+    border-bottom: 1px solid #abababab;
+    border-radius: 3%;
+    background-color: lightgray;
+    margin: 7px;
+}    
 
 div{
     background-color: #531D82;
@@ -15,16 +30,20 @@ div{
 
 .container-fluid{
     text-align: center;
-    padding: 3px 0px;
-    border-bottom: 1px outset #abababab;
+    padding: 5px 5px;
+    margin: auto;
+    background-color: #abababab;
 }
 
-.row{
-    padding: 5px 0;
+.sobreMi{
+    padding: 10px 20px;
+    margin: 15px;
+
 }
 
-.columna{
-    border-right: 1px outser #abababab;
+article{
+    border: 1px solid black;
 }
+
 
 
