@@ -4,8 +4,18 @@
     text-align: center;
 }
 
+h1{
+    background-color: aliceblue;
+    border-radius: 5%;
+    border-bottom: 1px solid black;
+}
+
 img{
     border-radius: 50%;
+    padding: 10px;
+}
+
+.container{
     padding: 10px;
 }
 
@@ -17,32 +27,33 @@ li{
     font-size: 14px;
     list-style: none;
     text-align: center;
-    border-left: 1px outset #abababab;
+    box-shadow: -5px 3px 10px black;
     border-bottom: 1px solid #abababab;
     border-radius: 3%;
-    background-color: lightgray;
+    background-color: aliceblue;
     margin: 7px;
 }    
-
-div{
-    background-color: #531D82;
-}
 
 .container-fluid{
     text-align: center;
     padding: 5px 5px;
-    margin: auto;
-    background-color: #abababab;
+    margin: auto;   
 }
 
 .sobreMi{
-    padding: 10px 20px;
-    margin: 15px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3%;
+}
 
+p{
+    margin: 7px
 }
 
 article{
-    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 0 0 3px;
 }
 
 
