@@ -13,6 +13,22 @@ h1{
 img{
     border-radius: 50%;
     padding: 10px;
+    width: 30%;
+    align-self: center;
+}
+
+#clyde_foto-container{
+    display: flex;
+    justify-content: center;
+}
+
+#Clyde_Foto{
+    width: 200px;
+}
+
+.logo_hab{
+    background-color: aliceblue;
+    margin: 10px;
 }
 
 .container{
@@ -29,7 +45,7 @@ li{
     text-align: center;
     box-shadow: -5px 3px 10px black;
     border-bottom: 1px solid #abababab;
-    border-radius: 3%;
+    border-radius: 3px;
     background-color: aliceblue;
     margin: 7px;
 }    
@@ -44,16 +60,19 @@ li{
     background-color: aliceblue;
     padding: 20px;
     margin: 10px;
-    border-radius: 3%;
-}
-
-p{
-    margin: 7px
+    border-radius: 3px;
 }
 
 article{
     border-radius: 3px;
     box-shadow: 0 0 3px;
+    padding: 20px;
+    margin: 15px;
+}
+
+footer{
+    background-color: lightgray;
+    padding: 20px;
 }
 
 
