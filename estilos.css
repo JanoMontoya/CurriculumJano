@@ -3,52 +3,128 @@
     box-sizing: border-box;
     text-align: center;
 }
+/* Seccion de header */
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 
-h1{
-    background-color: aliceblue;
-    border-radius: 5%;
-    border-bottom: 1px solid black;
+.header-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2 20;
+    border-bottom: 2px solid #909090;
+    background-color: slateblue;
+}
+
+.header-wrap{
+    flex: 1 1;
+    border-bottom: 2px solid #909090;
+    background-color: slateblue;
+}
+
+.container_name{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+}
+
+.name{
+    padding: 5px;
+}
+
+.name h1{
+    font-size: 40px;
+
+}
+
+.surname{
+    padding: 5px;
+}
+
+.surname h2{
+    font-size: 40px;
+}
+
+.container_profession{
+    display: flex;
+    justify-content: center;
+    background-color: #909090;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
     border-radius: 50%;
     padding: 10px;
-    width: 30%;
-    align-self: center;
+}
+/* Seccion Header */
+
+/* Seccion nav */
+.items_container{
+    background-color: darkolivegreen;
 }
 
-#clyde_foto-container{
+.items_container{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 0%;
+}
+
+.items_container li{
+    flex: 1;
+    font-size: 14px;
+    list-style: none;
+    padding: 10px;
+}
+
+.items_container li:hover{
+    transition: all 0.3s;
+    background-color: slateblue;
+}
+
+.items_container li:hover a{
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
+.items_container li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* Seccion nav */
+
+/* Logos */
+.logo_hab{
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
-
-#Clyde_Foto{
-    width: 200px;
-}
-
-.logo_hab{
+.logo_hab img{
     background-color: aliceblue;
     margin: 10px;
+    width: 30%;
+    height: 30%;
+    transition: all 0.5s;
 }
+
+.logo_hab img:hover{
+    transform: scale(1.2);
+}
+/* Logos */
 
 .container{
     padding: 10px;
 }
-
-ul{
-    margin: 5px;
-}
-
-li{
-    font-size: 14px;
-    list-style: none;
-    text-align: center;
-    box-shadow: -5px 3px 10px black;
-    border-bottom: 1px solid #abababab;
-    border-radius: 3px;
-    background-color: aliceblue;
-    margin: 7px;
-}    
 
 .container-fluid{
     text-align: center;
@@ -73,6 +149,42 @@ article{
 footer{
     background-color: lightgray;
     padding: 20px;
+}
+
+@media screen and (max-width:576px){
+
+    header{
+        flex-direction: column-reverse;
+    }
+
+    .header-main{
+        width: 100%;
+    }
+
+    .header-wrap{
+        width: 100%;
+    }
+
+    .container_name{
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .name{
+        padding-right: 0px;
+    }
+
+    .surname{
+        padding-left: 0px;
+    }
+
+
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .name h1{
+        background-color: blue;
+    }
 }
 
 
